@@ -840,6 +840,12 @@ public enum ItemCollections
 		ItemID.PHARAOHS_SCEPTRE_UNCHARGED
 	)),
 
+	CABBAGE_PORTS(ImmutableList.of(
+		ItemID.EXPLORERS_RING_2,
+		ItemID.EXPLORERS_RING_3,
+		ItemID.EXPLORERS_RING_4
+	)),
+
 	// Logs
 
 	LOGS_FOR_FIRE(ImmutableList.of(

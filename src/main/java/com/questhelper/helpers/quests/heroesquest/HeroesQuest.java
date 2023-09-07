@@ -243,8 +243,7 @@ public class HeroesQuest extends BasicQuestHelper
 		taverleyTeleport = new ItemRequirement("Taverley teleport", ItemID.TAVERLEY_TELEPORT);
 		taverleyTeleport.addAlternates(ItemID.FALADOR_TELEPORT);
 		brimhavenTeleport = new ItemRequirement("Brimhaven teleport, or travel by boat from Ardougne/Port Sarim for 30gp", ItemID.BRIMHAVEN_TELEPORT);
-		portSarimTeleport = new ItemRequirement("Port Sarim teleport (Explorer's ring 2/3/4, Amulet of Glory to Draynor)", ItemID.EXPLORERS_RING_4);
-		portSarimTeleport.addAlternates(ItemID.EXPLORERS_RING_3, ItemID.EXPLORERS_RING_2, ItemID.EXPLORERS_RING_1);
+		portSarimTeleport = new ItemRequirement("Port Sarim teleport (Explorer's ring 2/3/4, Amulet of Glory to Draynor)", ItemCollections.CABBAGE_PORTS);
 		portSarimTeleport.addAlternates(ItemCollections.AMULET_OF_GLORIES);
 
 

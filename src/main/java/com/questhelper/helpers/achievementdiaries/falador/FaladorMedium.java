@@ -230,8 +230,7 @@ public class FaladorMedium extends ComplexStateQuestHelper
 		initiateSet = new ItemRequirements(initiateChest, initiateLegs, initiateHelm);
 
 		faladorTeleport = new ItemRequirement("Falador Teleports", ItemID.FALADOR_TELEPORT);
-		explorersRing = new ItemRequirement("Explorer's Ring (2)", ItemID.EXPLORERS_RING_2).isNotConsumed();
-		explorersRing.addAlternates(ItemID.EXPLORERS_RING_4, ItemID.EXPLORERS_RING_3);
+		explorersRing = new ItemRequirement("Explorer's Ring (2) or above", ItemCollections.CABBAGE_PORTS).isNotConsumed();
 		combatBracelet = new ItemRequirement("Combat Bracelet", ItemCollections.COMBAT_BRACELETS).isNotConsumed();
 		combatBracelet.addAlternates(ItemCollections.GAMES_NECKLACES);
 

@@ -166,8 +166,7 @@ public class FaladorEasy extends ComplexStateQuestHelper
 		//Recommended
 		teleportFalador = new ItemRequirement("Multiple teleports to Falador", ItemID.FALADOR_TELEPORT, -1);
 		teleportMindAltar = new ItemRequirement("A Teleport to the Mind Altar", ItemID.MIND_ALTAR_TELEPORT);
-		explorersRing = new ItemRequirement("Explorers Ring (2) or above.", ItemID.EXPLORERS_RING_2).isNotConsumed();
-		explorersRing.addAlternates(ItemID.EXPLORERS_RING_3, ItemID.EXPLORERS_RING_4);
+		explorersRing = new ItemRequirement("Explorers Ring (2) or above.", ItemCollections.CABBAGE_PORTS).isNotConsumed();
 
 		bluriteOre = new ItemRequirement("Blurite Ore", ItemID.BLURITE_ORE);
 		bluriteBar = new ItemRequirement("Blurite Bar", ItemID.BLURITE_BAR);
